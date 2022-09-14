@@ -11,6 +11,7 @@ app.use(express.json());
 
 app.post('/products', ProductCreate);
 app.get('/products', ProductGetAll);
+// app.post('/users', UserCreate);
 //
 
 export default app;
