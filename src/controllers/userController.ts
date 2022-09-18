@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import jwt from 'jsonwebtoken';
+import jwt, { SignOptions } from 'jsonwebtoken';
 
 import UserCreate from '../services/userService';
 
@@ -12,7 +12,7 @@ export default async function create(request: Request, response: Response) {
   }
   const { username, classe, level } = request.body;
   const user = { username, classe, level };
-  const jwtConfig = { expiresIn: '8h', algorithm: 'HS256' };
+  const jwtConfig: SignOptions = { expiresIn: '8h', algorithm: 'HS256' };
   const token = jwt.sign({ data: user }, secret, jwtConfig);
   
   return response.status(201).json({ token });
