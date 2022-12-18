@@ -14,7 +14,6 @@ export default async function getAll() {
    ORDER BY orders.userId, orders.id 
   `;
   const result = await connection.execute<ResultSetHeader>(query);
-  console.log(result[0]);
-
+  
   return result[0];
 } 
