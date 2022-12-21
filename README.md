@@ -1,13 +1,31 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Trybe Smith 
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+26º projeto na Trybe. Uma API Node.js CRUD com conexão com banco de dados MySQL com a finalidade da criação de uma loja de itens medievais.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+## Tecnologias empregadas:
+
+TypeScript, Docker, MySQL, Node.js e as bibliotecas:
+
+* mysql2 (Conexão com o banco de dados)
+* Jsonwebtoken (validação de token)
+* Express (Endpoints)
+
+## Habilidades praticadas
+
+  * Uso da linguagem `Typescript`
+
+  * Construção de API RESTful
+
+  * Rodar a aplicação com Docker 
+
+  * Validação do login do usuário com `jsonwebtoken`
+
+## O que é de minha autoria:
+
+Os arquivos dos diretórios:
+
+* `./src/controllers`
+* `./src/services`
+* `./src/Interfaces`
+* `./src/models` menos `connection.ts`
+* `./src/app.ts`
