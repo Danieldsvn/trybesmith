@@ -1,6 +1,6 @@
 # Trybe Smith 
 
-26º projeto na Trybe. Uma API Node.js CRUD com conexão com banco de dados MySQL com a finalidade da criação de uma loja de itens medievais.
+25º projeto na Trybe. Uma API Node.js CRUD com conexão com banco de dados MySQL com a finalidade da criação de uma loja de itens medievais.
 
 ## Tecnologias empregadas:
 
